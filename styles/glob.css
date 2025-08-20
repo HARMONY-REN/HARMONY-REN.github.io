@@ -53,7 +53,7 @@ nav a:hover::after {
 main {
   flex: 1;
   padding: clamp(5px, 2.5vw, 15px);
-  font-size: clamp(12px, 1vw, 16px);
+  font-size: clamp(14px, 1.2vw, 20px);
   line-height: clamp(1.5, 2vw, 1.8);
 }
 

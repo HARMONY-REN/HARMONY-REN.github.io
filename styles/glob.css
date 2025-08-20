@@ -11,7 +11,7 @@ body {
 
 a {
   color: #D4D7D8;
-  text-underline-offset: 0.5em; 
+  text-underline-offset: 0.5em;
 }
 
 nav {
@@ -58,7 +58,7 @@ main {
 }
 
 footer {
-  border-top: #171717 1px solid;
+  border-top: #D4D7D8 1px solid;
   text-align: center;
 
 }

@@ -25,4 +25,4 @@ def create_file_index(dir: str):
     with open(out_file, "w") as f:
         f.write(out)
 
-create_file_index("templates")
+create_file_index("./pages/templates")

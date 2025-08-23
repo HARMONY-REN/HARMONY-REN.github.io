@@ -1,0 +1,34 @@
+content-table {
+  border-collapse: collapse;
+}
+
+content-table th,
+content-table td {
+  border: 1px solid #2F2F2F;
+  padding: 0.5vw;
+  text-align: left;
+}
+
+content-table thead th {
+  background-color: #2F2F2F;
+}
+
+content-table tbody tr:nth-child(even) {
+  background-color: #2F2F2F;
+}
+
+content-table tbody tr:nth-child(odd) {
+  background-color: #171717;
+}
+
+@media (max-width: 768px) {
+
+  content-table th,
+  content-table td {
+    padding: 1vw;
+  }
+
+  a {
+    text-underline-offset: 0.3em;
+  }
+}

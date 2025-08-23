@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 a {
@@ -76,4 +77,61 @@ hr {
   background-color: #D4D7D8;
   height: 1px;
   width: 30%;
+}
+
+#nav-toggle {
+  color: #D4D7D8;
+  background-color: #171717;
+  border: 0;
+  font-size: clamp(1.8em, 3vw, 2em);
+  cursor: pointer;
+  position: absolute;
+  top: clamp(10px, 1.5vw, 20px);
+  right: clamp(10px, 1.5vw, 20px);
+  z-index: 1000;
+}
+
+
+.show-only-on-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .show-only-on-mobile {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    border: none;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+
+.show {
+  display: block;
+}
+
+.show-only-on-desktop {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  nav.show-only-on-desktop {
+    display: none;
+  }
+
+  nav.show {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }

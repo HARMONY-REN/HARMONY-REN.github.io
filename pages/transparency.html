@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/ren_light.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/glob.css">
+
+  <link rel="stylesheet" href="./styles/content-table.css">
+
+  <script defer src="./scripts/dropdown.js"></script>
+  <title>HARMONY連 | Homepage</title>
+</head>
+
+<body>
+
+  <button class="show-only-on-mobile" id="nav-toggle" onclick="toggle_dropdown('nav')">&#9776;</button>
+  <nav class="show-only-on-desktop" id="nav">
+    <a href="./index.html">Home</a>
+    <a href="./news.html">News</a>
+    <a href="./projects.html">Projects</a>
+    <a href="./about-us.html">About Us</a>
+    <a href="./transparency.html">Transparency</a>
+    <a href="./get-involved.html">Get Involved</a>
+  </nav>
+
+  <main>
+    <p>To provide our services, we incur in many costs, and for transparency purposes, we publish how much it costs us
+      to provide our services:</p>
+    <h3>HARMONY連's website</h3>
+
+    <content-table>
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Price (EUR)</th>
+            <th>Period</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Domain name</td>
+            <td>14.99</td>
+            <td>year</td>
+          </tr>
+
+          <tr>
+            <td>Webmail</td>
+            <td>0.99</td>
+            <td>year</td>
+          </tr>
+
+          <tr>
+            <td>Whois Privacy</td>
+            <td>3.00</td>
+            <td>year</td>
+          </tr>
+
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td>Total + 22% VAT:</td>
+            <td>23.16</td>
+            <td>year</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </content-table>
+
+    <p>We accept donations via the following methods:</p>
+    <p>BNB or DAI on the Binance Smart Chain (BSC): 0x850a059814C88a51B6239F4a5be5cF46c98EB3fa</p>
+    <p><strong>NOTE: </strong>We will not make any investments until we have secured at least one year's worth of
+      donations.</p>
+  </main>
+
+  <footer>
+    <p>2025 HARMONY連</p>
+  </footer>
+
+</body>
+
+</html>

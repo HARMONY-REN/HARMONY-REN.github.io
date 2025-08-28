@@ -1,0 +1,20 @@
+title HARMONY連 | Index
+icon /assets/ren_light.png
+body
+  nav
+    link /index "Home"
+    link /proposals "Proposals"
+    link /departments "Departments"
+    link /contact "Contact"
+    link /about-us "About Us"
+
+  content
+    text bold centered font-size 1.2rem "HARMONY連・For innovation\n"
+    text bold "About Us\n"
+    text "HARMONY連 is an Open Innovation Collective.\n"
+    text "We discuss ideas, propose projects, build together, and collaborate to create meaningful impact.\n"
+    text "Everyone is welcome to learn, contribute, and grow with us."
+    link /get-involved "Join us!"
+
+  footer
+    text "© HARMONY連"

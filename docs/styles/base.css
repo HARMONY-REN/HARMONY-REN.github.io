@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Noto Serif JP';
-  src: url('/fonts/NotoSerifJP-Regular.otf');
+  src: url('/assets/fonts/NotoSerifJP-Regular.ttf');
 }
 
 :root {
@@ -125,9 +125,10 @@ hr {
 }
 
 @media (max-width: 600px) {
+  /*
   nav {
     display: none;
-  }
+  }*/
 
   nav a {
     display: block;

@@ -68,20 +68,22 @@ A transparent and modular computer architecture, with attention at the transisto
 - **Production**: the actual manufacturing and realization of the computer architecture.  
 
 Particular focus will be drawn on **xwm**, allowing prototyping, iteration, and maturation—precisely, *“waiting for xarch.”*  
+
 ---
 
 ### The Shoyuuken (所有権) programming language  
-
 From Japanese, meaning *“ownership”*, **Shoyuuken** is a mid-level language that acts as a bridge between hardware and user,  
 allowing both direct component access and high-level abstractions.  
 
 On the bridged versions of xwm’s xarch images, a **Foreign Function Interface (FFI)** is expected,  
 for ease of development and compatibility.  
+
 ---
 
 ### The Shoyuuken (所有権) Kernel  
 
 A bare-bones kernel that provides simplified access to peripherals through system calls.  
+
 ---
 
 ### Void Engine  
@@ -97,6 +99,7 @@ with support for plugin injections. Initial plugins will include:
 
 A bundle of software living on top of the Shoyuuken Kernel,  
 providing comfort, usability, and full ownership of the entire system.  
+
 ---
 
 ### Tsugou (都合)
